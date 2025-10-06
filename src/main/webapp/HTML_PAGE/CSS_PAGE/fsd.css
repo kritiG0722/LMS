@@ -1,0 +1,150 @@
+* {
+    padding: 0;   /* Corrected from "pading" */
+    margin: 0;
+}
+
+ .nav_bar {
+    margin: 10px;
+    text-align: center; 
+    list-style: none;   
+    display: flex;      
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    background-color:black;  
+         
+}
+#logo{
+	color:white;
+	margin-right:250px;
+}
+
+.nav_bar li a {
+   
+    text-decoration: none; 
+   color: white; 
+     font-size:20px;  
+}
+
+
+.nav_bar li {
+    color: red;
+}
+#logo{
+	color:white;
+	margin-right:250px;
+}
+.nav_bar li a:hover{
+   cursor:pointer;
+   color:brown;
+    transition: transform 2s ease;
+   
+}
+
+
+
+/*card*/
+
+
+#Card1{
+	margin-top:50px;
+	margin-left:150px;
+	
+}
+
+.card1,.card2,.card3{
+	
+	
+	margin-right:150px;
+}
+
+
+ .card:hover{
+	border-radius:50px;
+}
+#CBoder{
+	border-radius:10px;
+	box-shadow: 4px 4px 4px whitesmoke;
+	 height:500px;
+}
+
+#CBoder:hover{
+	border-radius:10px;
+	box-shadow: 2px 4px 4px black;
+	height:505px;
+	width: 30rem;
+    cursor:pointer;
+   
+}
+.btn{
+	margin-left:70px;
+}
+
+
+#logo{
+	color:white;
+	margin-right:250px;
+}
+
+#one{
+	
+	
+	margin-top:100px;
+}
+#p1{
+	font-size:25px;
+	font-weight:bold;
+	margin-left:4px;
+}
+
+
+#one{
+	
+	width:400px;
+	height:150px;
+	border-radius: 20px;
+	margin-left:250px;
+}
+
+
+#two{
+	
+margin-top:100px;	
+	margin-left:250px;
+	width:400px;
+	height:140px;
+	border-radius: 20px;
+}
+#three{
+	
+	margin-top:100px;
+	margin-left:600px;
+	width:400px;
+	height:150px;
+	border-radius: 50px;
+}
+
+
+
+
+
+#fsdH{
+	margin-top:50px;
+	text-align:center;
+	color:brown;
+}
+
+
+#eid{
+	border-radius:20px;
+	background-color:white;
+	color: black;
+	width:150px;
+	box-shadow: 0px 2px 2px black;
+	
+}
+
+ #footer{
+	margin-top:50px;
+	width:100%;
+}

@@ -1,0 +1,308 @@
+* {
+    padding: 0;   /* Corrected from "pading" */
+    margin: 0;
+}
+
+ .nav_bar {
+    margin: 10px;
+    text-align: center; 
+    list-style: none;   
+    display: flex;      
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    background-color:black;  
+         
+}
+
+.nav_bar li a {
+   
+    text-decoration: none; 
+   color: white; 
+     font-size:20px;  
+}
+
+
+
+
+
+.nav_bar li a:hover{
+   cursor:pointer;
+   color:brown;
+    transition: transform 2s ease;
+   
+}
+#logo{
+	color:white;
+	margin-right:250px;
+}
+
+.TechAbout{
+	
+	text-align:center;
+	margin-top:80px;
+	margin:80px;
+	
+	}
+	
+	
+#tech1{
+	text-align:center;
+	margin-top:80px;
+	color:red;
+}
+
+
+
+.pp{
+	text-align:center;
+	margin-top:40px;
+	font-weight:600;
+	
+}
+
+
+/*About div*/
+
+
+
+#T1{
+	text-align:center;
+	font-weight:600;
+	color:white;
+	margin-top:90px;
+	
+	
+}
+#tech2 , #tech3 {
+	font-weight:600;
+	text-align:center;
+	margin-top:10px;
+	font-size:20px;
+}
+
+#ImgAbout{
+	background-image:url('MEDIA/bg.jpg');
+	background-repeat:no-repete;
+	background-size:cover;
+	
+	height:100vh;
+	width:40%;
+	 border-top-left-radius: 60px ;
+	  border-bottom-right-radius: 60px ;
+	  margin-left:50px;
+	  
+	  margin-top:40px;
+	  padding:20px;
+	
+	
+	
+}
+
+#col2{
+	background-image:url('MEDIA/about1.jpg');
+	background-repeat:no-repete;
+	background-size:cover;
+	
+	height:100vh;
+	width:40%;
+	 border-radius: 20px ;
+	  
+	  margin-left:150px;
+	  
+	  margin-top:40px;
+	  padding:20px;
+	
+	
+}
+#card1{
+	
+	margin-top:40px;
+	margin-bottom:50px;
+	margin-left:20px;
+}
+
+#card2{
+	margin-top:40px;
+	margin-bottom:50px;
+	margin-left:50px;
+}
+
+#card3{
+	margin-top:40px;
+	margin-bottom:50px;
+	margin-left:50px;
+}
+
+
+ div #mission{
+	
+	border: 2px 2px solid black;
+	box-shadow:0px 2px 2px black;
+	margin-left:150px;
+	margin-top:50px;
+	margin-bottom:40px;
+	text-align:center;
+	height:400px;
+	width:500px;
+	font-size:23px;
+	padding:20px;
+	 border-radius: 40px ;
+	 padding-top:40px;
+	
+	
+}
+
+
+div #vission{
+	
+	border: 2px 2px solid black;
+	box-shadow:0px 2px 2px black;
+	margin-left:150px;
+	margin-top:50px;
+	margin-bottom:40px;
+	text-align:center;
+	height:400px;
+	width:500px;
+	font-size:20px;
+	padding:20px;
+	 border-radius: 40px ;
+	 padding-top:40px;
+	
+	
+}
+
+#vission + li{
+	font-size:10px;
+}
+
+#p1{
+	font-size:25px;
+	font-weight:bold;
+	margin-left:4px;
+}
+
+
+
+
+
+
+
+#eid{
+	border-radius:20px;
+	background-color:white;
+	color: black;
+	width:150px;
+	box-shadow: 0px 2px 2px black;
+	
+}
+.btn{
+	
+margin-left:70px;
+}
+
+ #footer{
+	margin-top:50px;
+	width:100%;
+}
+
+#one{
+	margin-top:70px;
+	margin-bottom:50px;
+	
+	
+	
+	
+}
+
+
+
+
+#founder{
+	margin-top:70px;
+	margin-left:50px;
+	color: brown;
+	
+	
+}
+
+
+
+#associate{
+	margin-top:50px;
+	margin-bottom:70px;
+	margin-left:50px;
+	color: brown;
+	
+}
+
+#card1 {
+	margin-top:50px;
+	margin-left:50px;
+	
+	
+}
+ #card2{
+	margin-top:50px;
+	margin-left:50px;
+	margin-right:50px;
+	
+}
+
+
+
+
+#trainer{
+	margin-top:70px;
+	margin-bottom:100px;
+	margin-left:50px;
+	color: brown;
+	
+}
+
+#trainer1 , #trainer2{
+	margin-top:70px;
+	
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

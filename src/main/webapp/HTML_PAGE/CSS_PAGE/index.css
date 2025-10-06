@@ -1,0 +1,173 @@
+* {
+    padding: 0;   /* Corrected from "pading" */
+    margin: 0;
+}
+.head{
+	 position:static;
+    top:0;
+    
+}
+
+ .nav_bar {
+    margin: 0px;
+    text-align: center; 
+    list-style: none;   
+    display: flex;      
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    background-color:black;  
+   
+   
+         
+}
+
+.nav_bar li a {
+   
+    text-decoration: none; 
+   color: white; 
+     font-size:20px; 
+     text-align-last:left ; 
+}
+.nav_bar li a:hover{
+   cursor:pointer;
+   color:brown;
+    transition: transform 2s ease;
+   
+}
+
+#drop li a{
+	
+	color:brown;
+}
+
+
+
+
+.image{
+	background-image:url('MEDIA/AI.jpg');
+	background-repeat:no-repete;
+	background-size:cover;
+	
+	height:60vh;
+	width:100%;
+	
+	 opacity: 0.6;
+    animation: fadeIn 2s ease-in-out backwards; 
+}
+
+#logo{
+	color:white;
+	margin-right:250px;
+}
+
+
+#par1{
+	
+	text-align:center;
+	padding-top:180px;
+	color:white;
+	font-size:50px;
+}
+
+#par2{
+	
+	text-align:center;
+	padding-top:10px;
+	color:white;
+	font-size:30px;
+}
+
+
+ /* Define the fadeIn animation */
+@keyframes fadeIn
+ {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+.course{
+	text-align:center;
+	color:black;
+	margin-top:20px;
+	font-size:40px;
+	letter-space:2px;
+}
+
+#Card1{
+	margin-top:50px;
+	margin-left:150px;
+	
+}
+
+.card1,.card2,.card3{
+	
+	
+	margin-right:150px;
+}
+
+
+ .card:hover{
+	border-radius:50px;
+}
+#CBoder{
+	border-radius:10px;
+	box-shadow: 4px 4px 4px whitesmoke;
+	 height:500px;
+}
+
+#CBoder:hover{
+	border-radius:10px;
+	box-shadow: 2px 4px 4px black;
+	height:505px;
+	width: 30rem;
+    cursor:pointer;
+   transform: translateY(-5px);
+}
+.btn{
+	margin-left:70px;
+}
+
+
+
+
+#one{
+	
+	
+	margin-top:100px;
+}
+#p1{
+	font-size:25px;
+	font-weight:bold;
+	margin-left:4px;
+}
+
+
+
+
+
+
+
+#eid{
+	border-radius:20px;
+	background-color:white;
+	color: black;
+	width:150px;
+	box-shadow: 0px 2px 2px black;
+	
+}
+
+ #footer{
+	margin-top:50px;
+	width:100%;
+}
+

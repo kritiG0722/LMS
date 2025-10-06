@@ -1,0 +1,191 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Placement Clause Agreement - TechWizard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f0f0f0;
+    }
+    .container {
+      background: #fff;
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    .clause {
+      margin-bottom: 20px;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    canvas {
+      border: 2px dashed #999;
+      width: 100%;
+      height: 150px;
+    }
+    .buttons {
+      margin: 10px 0;
+    }
+    button {
+      background-color: #003366;
+      color: white;
+      padding: 10px 15px;
+      margin: 5px 10px 5px 0;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #00509e;
+    }
+    .signature-preview, .details-preview {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>TechWizard</h1>
+    <h2>Placement Clause Agreement</h2>
+    
+    <div class="clause">
+      <p><strong>1.	Eligibility for Placement Assistance</strong> Students must successfully complete their enrolled course(s), including all assignments, projects, and evaluations, to be eligible for placement assistance from Visionary IT Global.</p>
+      <p><strong>2.	Minimum Attendance Requirement</strong> A minimum of 85% attendance is mandatory throughout the course to qualify for participation in the placement process.</p>
+      <p><strong>3.	Resume and Interview Readiness</strong> Students must attend all resume-building sessions, mock interviews, and soft skills training organized by Visionary IT Global to qualify for placement opportunities.</p>
+      <p><strong>4.	Placement Support with Conditions</strong> </p><pre>Visionary IT Global is committed to helping students land their first job after course completion. However, 
+        this support is subject to certain conditions, including:
+•  The student has paid the full course fee with no dues remaining.
+•  All course modules, projects, and assessments have been completed and passed as per the evaluation criteria.
+•  The student has actively participated in resume preparation, mock interviews, and soft skills training sessions.
+•  The student agrees to accept job opportunities across any location in India as per industry demand.
+•  The student maintains professional behavior during all placement activities. Any non-professional, disrespectful,
+ or unethical behavior towards the placement team, trainers, or recruiters will lead to disqualification from the placement process.
+</pre><p></p>
+      <p><strong>5.	Company and Role Acceptance Policy</strong>Students are expected to accept interview calls and job roles aligned with their skill level. Refusal of more than two genuine opportunities may lead to disqualification from further placement support.</p>
+
+      <p><strong>6.	Code of Conduct During Placement Drives</strong>Professional behavior and punctuality are expected during all interactions with recruiters. Any misconduct may lead to suspension from the placement cell.</p>
+       <p><strong>7.	Honesty in Application</strong>Students must provide accurate personal, academic, and project details in their resumes. Any falsification may result in blacklisting from placement assistance.</p>
+      
+      <p><strong>8.	Post-Offer Rules</strong>Once a student accepts an offer, they will be considered “placed” and will no longer be eligible for further placement drives unless the offer is revoked by the employer.</p>
+      
+     
+      <p><strong>9.	Feedback and Reporting Obligation</strong>Students are required to provide placement status updates and employer feedback for internal reporting and service improvement purposes.</p>
+      
+      <p><strong>10.	Liability Limitation</strong>Visionary IT Global will not be held liable for any recruitment decisions, employment terms, or job discontinuation made by the hiring companies.</p>
+      
+    </div>
+
+    <h3>Student Agreement Form</h3>
+    <form id="sign-form">
+      <label for="student-name">Full Name:</label>
+      <input type="text" id="student-name" name="student-name" required="">
+
+      <label for="student-email">Email:</label>
+      <input type="email" id="student-email" name="student-email" required="">
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required="">
+
+      <label>Draw Digital Signature:</label>
+      <canvas id="signature-pad" style="touch-action: none; user-select: none;"></canvas>
+      <div class="buttons">
+        <button type="button" onclick="clearSignature()">Clear Signature</button>
+      </div>
+
+      <input type="hidden" id="signature-data" name="signature-data">
+
+      <button type="submit">Agree &amp; Submit</button>
+    </form>
+
+    <div class="details-preview">
+      <p><strong>Name:</strong> <span id="preview-name"></span></p>
+      <p><strong>Email:</strong> <span id="preview-email"></span></p>
+      <p><strong>Date:</strong> <span id="preview-date"></span></p>
+    </div>
+
+    <div class="signature-preview">
+      <h4>Signed Preview:</h4>
+      <img id="signature-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAAFGlJREFUeF7tXTHuZzcRdiQKkEAKHXThBskJIF1KjpA9AdwAcoNEoqMgJQVFOuiAE4QbQIOgC0UKCiTY0f4nMrMznhk/+71nv+8nrbS7Pz+/8Tfj7zczHtvvFHyAABAAAosg8M4ickJMIAAEgEABYcEIgAAQWAYBENYyqoKgQAAIgLBgA0AACCyDAAhrGVVBUCAABEBYsAEgAASWQQCEtYyqICgQAAIgLNgAEAACyyAAwlpGVRAUCAABEBZsAAgAgWUQAGEtoyoICgSAAAgLNgAEgMAyCICwllEVBAUCQACEBRsAAkBgGQRAWMuoCoICASAAwoINAAEgsAwCIKxlVAVBgQAQAGHBBoAAEFgGARDWMqqCoEAACICwYANAAAgsgwAIaxlVQVAgAARAWLABIAAElkEAhLWMqiAoEAACICzYABAAAssgAMJaRlUQFAgAARAWbAAIAIFlEABhLaMqCAoEgAAICzYABIDAMgiAsJZRFQQFAkAAhAUbAAJAYBkEQFjLqAqCAgEgAMKCDQABILAMAiCsZVT1eEF//ILAnx+PxIMBAGE9WPkLDf03pZSPX+T9Uynlw4Vkh6gDEQBhDQQTXU1D4L+iZ9jtNKjv3TEUf2/9QLpSfvEahF+CsGAKhAAIC3ZwdwS+LKW8XwmJkPDuGpsoHwhrIrjoeggCMhwkb+uTIT2jk+UQAGHpKuMVKfoWq1LXmbUWDv4EOrlOIVe/GYT1RgM/K6X85SVXQhNCfigM+dtLm8+uVtqD3v/HUorUB2z2QQYgh/p05ZMnRSGGRlIts0BYcs6kkeEg8lfn4H7btzyVsHqJSioSxDXPtOvaK34L8J6H9xI9P5GwtLyIFgLy/3neFybRHFPXwsHPSymvEq+jHybkIBOA3b3p0wirRVaUo/r0JU8ljZwMnyqtaXm9XmKvSQ0TY6y1y3CQem8l3HmhhGu26h+ap9n5WE3cqLcnKbJFVhkvSevnX6WU799Ir6uLQuRD+Sor50rfEyExKXleMFYWV7eIF/mfQlhaPoQgoElBZJX1jjTSypDeJuYzbRiRsD3z8qfYeQaTJds+QZGW8R8lGI0En/xLXodkFF6/91IK0so58TMUZlNZCXtN9Cz96f3QDxH/yf4Y9b4Tz52AwO6ENYusWDUyMfzUZfeWR0SYfPGS+2MS8kK4jOlz6Mi5KxBUBr3F2u5MWNYkyq40tVSq5Vqe5GXR+ImM3j3J7kFOJwF919fsTFjasvjRMFDToyTGJ3hZo+rYMvPiST8EGVwe1XZXwjq76FCS4+6TSys5ODJx6pISXgyxVgiPvAfPLo7AroR19g5/GRruTFhRsuLEu5wiHNZZSXErlN/VVhenkHPF39EIpMHTxPnRCbDWE3nXuqy/Gqt3vyql/E4pD5GeZwQXlIycYKyrvmJHwjrbu2LdfyWSz7thqxGJl6+jUzBo90D98XAZsSVn1fkIuR0EPONZDUA5qWYk2S1Mdg4LNbIiz5W2K7XKCHpWUbWQczc7XW1e3Ube3Qzh6ssK6vd73sdtjCAgiOb1RPJ0IwhrJxwDUKNJC4GdCEuuDJ7pXTHGcmLvgO/RUz8zIbpGcFfoEaxxUwR2mFB3Igs54X7+elP06ieUShLOEkjm+R6P7KZTC2LNQGAXwpKGzmEEJX1/euLFmzLJHAmbZuh1ZJ9Hw+wMYeFKr5Ga27CvXQhLGjqNq54oZ3o6O+WxJK5fl1K++3oeZLwsSXgtEpfvG7mNasPp+7wh7UJY9aTgyVR7O2cmbmuiPPO9M6y3VSQa9R4zHtoTtznN0Nu2fe5AWFYpQx0mZjyCo8reJfFuHaLH+EQIS/bhFY7KwtQd7POoPeH5CoEdDEKuDvKYaiI7k7AkgUYm9h2N0jtELzKubIgHwrqjJdxIph0Iqw456pxHPVkyoRl7SJlnapXuslKo1V7V44z8CGQS7tT3Tvm/G03zfURZnbBaOY9ewqonTQ8+krAiE/uOFlXjoG1kjowrk3CXuNEJpB/cERjIdB0CPRPyOmnffrO2OsitepLf9aQ5smn6DE+BL2L4ZIJCtNyTPKSvh7Ba9iZD+0jIOWHo6PLOCKxOWNrqIOOdWZ3iZ0blvXrIMmMndf8zPBEvHCRZPcLK7uuUm8dBWBmLeEjblQmrFXppK1yRWqya5I5MmJkrhZIIIoTFJ4RSXi7ikVm3DGVyWEe35ETwlyefom5rc+JambBa4WDPnrRWf1kzmElYkggiiwP16luE4Gr5/1lK+YECQMvD0givZWvZCndqX99LmCHSrC7R/kYIrExYVjkDwZvdkya31ERIoKXGlmxH1N97uF02PI6cKtryZmR5ghc+Zo+U8eQ7qr8jOsKzExFYmbDqnIecPFnCkh5RxAu5grCyE7snn+cVjHKfFgllvSXtfS3C8erDWL5ISDlxaqHrGQisTFitlbgMYWUnTEQPM4pHe88618aXDc+0MUcJy8sraeNq/WDI5LylD3hZEUtdrM2qhOWd7pkhrN4wq6XqswjLC7Ws8HgEYVkeTKb2iuTTvEaLbLTcGJ98Sn3xBRf89w8Xm48Q10FgV8LSJkJ0gtGzR3GZQVjaxI4QVjYBHilpIIw0PLOlDFb4qY3L8jBrOZ523drjCO7oxLwKsMiKXiTRPMO7Ikwi8jF2X778hW5QtkoOesNB6pr6f79SlBcqaYRFz8jr5TXbyZQyaDhp+TFaECECs26Xrglrl21RV82r2793Z8KqV6qsUwK0a6tGYBIta5DtiBhocsqLHXq9K83T9AhLexfloejCifojccom21uExSSUTbBLwjqyW+H2k/eJAo6YnFfgFtknKD0LOdaeWq3oWCPbTFqTsfYarHaRcFAjLG8FVCMskqfOD2nvznpXmmyML9dY0XuiH8Ys4llH+0S7myGwKmFFtqZ4Xk5r4/RRNUVyWF4tkXZMTsvD0WTWSNnzOjTi4Vua+R1y5S+bJ6N+WuUTkiDrsdF3RGQyRKU22ncobzhqzTd6flXCqkM5awK2CKsnfMmozSMs+b12GoLlMZAcXljHsmrj9J6VhEXkRH9qD0uSgPbMKwew1vYfIiTNu6rfaz0vsQRhZSz35m1XJayajKzQqLUBOXtOU1aNXtJd+147XoUS8drE7Q0HaRzes1pI1RpPL/lHVyMZ+8zKofTIWpe9ZnWL9hci8ETC6r0UNKMmLxy1TpnwwkSWIaq3bLJeei3svbYIqyd3ReOon+PLLej//1NK+ZYAu0WyXmI+ilVGv2h7EQKrKrN1rAxDKVcJ6bovLffheRw9qmntJZQTrM4HaauW8v1ReSN1S7JvST6coLe81V7vSssfajmpiEdIbVqkFcWrR8945mQEdiaseguHdeKAl4DuVUfLw2qtYsmVTe39UZ1la7e09oxP1COMkoNGjHWtGI/b29ZT40Mh9W+NkyWoHfX13suPFkLEXsu++Lmo8V8s5luvj3hYXo6EJhclkmcYr7XP0asEj8gcOc9KhlwMYIugtfCRPSwN756VQcsb0gpTo+RXG4eHX922XvmMYnq3efA4eXYgLGsVqGW8/y6lfPtF2z0TwzMUi1C93JY34aL6skoGLI/FWnHjQlZthbBnZVAjUg7TI5X0Gdy9ttr3snyDxz3jR61Hvsc/E50AdwOqnizWSaLe5K/HNJK0LC9KnrkVKb6sZcyERxYBaeTeqodiL7QmLLKZUbkrGh/1J3N3XnGrZo9WbpD+n0JBWal/xKYJD9oqxNuFSDf8qYmXCRCEdwTt6tkdCMvysP7RyGdY8I2o2bE24HrelXcscUZXFllH9v9JIqd/16UV1MeIlUHql2vCZH/Z3KJGoBY5M6FYJ5YOmlrfdOPVvY1+39b9ZSbBnYCoDdwimciKmxzTCOOS5zVpHon2npErXVZ5RGT/nySsemIzccnasIgdtbwyKW9GD9Zm7ejRMnz7EI17BomN9N7vNAcvkSViaJcI5rw0Qlj1itvfSym/fumTjJJceW1VippkQi9NzFo2Dm28QlLqp1WDldGTRXySBGSIqo1F5pe0CvTIhNRkqp/Txs7hlJUQJ/kpHUDhnvxEZIrYNZEZf+pQj/9O76aN9ZotcRgdJc6IPI9vk5kIdwHLO7yP5WxVunOb7NK/h4GWv5KJXG0yeXmkzCpWhLBaSfk61yMJ6g+llI8ECBEb0gipfq5F1kT6VPFPHyYBay8htRlFVp6u8f0FCESM7QKx3FdGPCyrtEB2ruWOMiFJ3Z+25YcnEbfTMD8jHOTQuXVonrbJuSYwSVgRb9TzrgiXaIW/ZxggKw+hxb8HYb1RoJbv6jF+OfEix7LQ+1vnlGd01FoZpX68cgf5vXYOVm3yHmFFN1/LMNoK163p1vsDs/j0fZ74mclwJ3SyHpZHPtZEzqwaSk+NK6vr3IeGd2t10Dp40NKF5alo9VTcRz3ZZV6LwjEmD7lbIEISmjwaptIbrs9pb9kdyUc4f3Yn44Qs8xDYgbCsOqxINXyNbNQbsLSh1QHV4ZQ1wVvhoOfBtOS3tiPVz0iZpCwtwvJ+BDQijuTv6ja8glev3nHYOmuXwrzZhp4PI7ADYVleUE1Y0Yl/5CQHrfK7JiwL61b+JurhWVeVWRuKyXDY66qLGluElTlnSiNhSwfRRZTDxo4O1kfgKYR1ZOJHnvWOOLG8Ee+5qH6kN0Pvo3DyU8NEe7y92tuibq3izuzKqySsSKi5/szDCLoQiE6Irs4nPjQ6h1WLql0M0aqlsUJJL3dF72x5V17IxTJHCzI1j0qqqEWgWkkDy8ihmywo5f69sXi7ACaaErpeCYFdCUv+ansTptZZ5iZoz0Oifq13e1txojJbe+jo3Uwk0XxPa5WRcoWWx+bZvGdn2rE60fHLd9OY6zqt3n68MeH7CxDwDOkCkUKv9BLqR/Mimuej5WC0djLXY00Yr/YoopveTcgWyK1TG8jL9GTW+o2E1FbVPSfYqaKccK03YdO7aAWTQlVOyls5uwiWIcNDo2sRWFWR9S+yRiRHCcsr5IzuOevNXUXLGXo3IVtWV3tY9SpjnVeKnoKR9Wx6yDAye7JyRPpEm4sQWJWwvFtzInv3PMgj4Z7sQxZaRpbxNTkiq5qjvSuSoyaj1plhLWwiuTIL+x7Mrb6OyOHZBr6/CIFVCav2sLRVJelh9Y4z6k1wrqpOOlukE+nTkzey3aXHpCwvp1WSIN9z9OwnGlvUg5XvrvcaHpWjBz88MxkBb2JMfn1399GNzWT4RCJHjJcmEBOSJTATVU1YmncV9SA8vRw5jqUFukVYkTxUtzIbDzL2nMOSOSoiKAqfKY91RMczZEefExDwJsaEVw7pckTIlxWkrrquCYwnipzsGrYWIdT5Ii/nMiMUZCws+Va1k6yO0f7mCKxqiEeT6qPVIknkiHfVyl/NCgVBWKMtAv1NQWBVwiIwIsWjU0BTOo0cZWN5L9EtL1p9WCQ5H8XA2gCOyvMogmg3HYGVCctbKZwO3ssLtG0x8sA9r0yizn1lzssaqT9LRhDWWZaE97gIjDR492WDG9yBsOQk1yZ36yhiIiovUW9drurlurJwW4Q1+j1ZudAeCHyDwMqEJYngipWsSO7KO1TPCidbxyaTAkfrziKskWEnph4QOITAaKM/JEzHw94WnY4uw49EVuu8UJBCR22zNQlhbTOZVRBpyXrFD0FYCWj4LARWJ6xIPdYsjUa2xbS2mzD2kUJSHsPM8My6Fg2ENcuC0G8agdUJ66ryhhGJdk7MR67bosJIOi1hZnGklStb3UbSkwIP3BeB1Y1RElb2xuBezRwpEtUS895Z7DOJijHI3BbdixueAwKHEFidsGjw0jOYHcJEVgZbuSsL8/rSTlbqGUTVIiyUNByaXnh4NAI7EJYMqWbmeSKJdtKR5THNlO2obWgy883VR/vG80BgCAI7EBYBIcOZGV5WdFtMj3c1RJkHO9EICx7WQVDx+FgEdiEsmcua4RloE1riFyljGKvBcb1p47uzRzhu5OhpGQR2ISwtDBtJWtGbob0i0TsbxpErzu48Lsi2EQI7EZZWGX7UQ7CqzbOnMRyV4wyT00h5J/s4A0O8YzICuxlk9LbhCKzZ0wtapQmta8IispzR5qvXt+K8K160m32cgSPeMRGBHQ1SC20yHo68JqqGv+fKrlUw1nBbRfaJUwRd3wmBXQ3SyiW1iKtFVKSz1rMrljFIO5SY0SmoP7yTsUIWILArYXknHfCRLryRmO63k+FQxLOiNquWMXiERbfmfAdTBAjcCYFdCYsxjl76YOkkcjLCDt4VjV96WF+XUr53J2OFLEBgd8IiDfPlEfVBeZ7mI0S1k3eljSV6mauHJb4HAsMQeAJh1d4WXRf1sYEeTVDaPP1BAt2dTumUYwFhJQwBTc9B4EmEVSPKXhf9H1++2bPRWAsHzzoxYrSFyJIQENZohNHfYQSeSliHgSulaDVf1G+mhGKEHKP6kJvIQVijkEU/wxAAYfVDqR14typZca6PvU32PFcoeO3XIJ5cDgEQVp/KrNzV6njyuGgf5hevL7qQ15X1oYWngMAgBFafYINgSHcTPWom3TEeAAJAwEYAhJW3Do2scG5UHkc8AQTSCICw0pCple10QcRn+a7wBBAAAhkEQFgZtN60jVzvle8VTwABIOAiAMJyIfq/Blopw4zjmHNSoTUQeAgCIKycouUhdyuXMeRGjtZA4AYIgLDiSvh9KeUj0Rz4xfFDSyBwGAFMuDiEyF3FsUJLIDAFARBWDFZZyoCjV2K4oRUQGIoACMuHE0WiPkZoAQROQQCE5cMsQ0EUifqYoQUQmIIACKsN68hbeKYoEJ0CgSchAMKytb3rBucn2TfGuhkCICxdoZkLVDczCQwHCNwXARCWrpudjj6+r/VBMiCQRACEpQNm3YQDvJIGhuZAYCQCmIBvo2l5VzgyeKTloS8g0IEACOtt0OR+QW7xeSnlVQfGeAQIAIFBCICw3gZyl4tRB5kIugEC90HgfxGQ7tOaVu3PAAAAAElFTkSuQmCC" alt="Signature will appear here after submitting" style="max-width: 100%; border: 1px solid #ccc;">
+    </div>
+
+    <div class="buttons">
+      <a id="downloadPage" href="#" download="placement_agreement_with_data.html">
+        <button>Download Page with Data</button>
+      </a>
+
+      <!-- <button onclick="openAgreementPDF()">View Full Agreement Rules (PDF)</button> -->
+    </div>
+  </div>
+
+  <!-- Signature Pad Library -->
+  <script src="https://cdn.jsdelivr.net/npm/signature_pad@4.1.6/dist/signature_pad.umd.min.js"></script>
+  <script>
+    const canvas = document.getElementById('signature-pad');
+    const signaturePad = new SignaturePad(canvas);
+
+    function clearSignature() {
+      signaturePad.clear();
+      document.getElementById('signature-image').src = '';
+    }
+
+    //function openAgreementPDF() {
+      // window.open('rules_agreement.pdf', '_blank'); // Ensure this file exists in same folder
+     //}
+
+    document.getElementById('sign-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      if (signaturePad.isEmpty()) {
+        alert("Please sign before submitting.");
+        return;
+      }
+
+      const name = document.getElementById('student-name').value;
+      const email = document.getElementById('student-email').value;
+      const date = document.getElementById('date').value;
+      const dataURL = signaturePad.toDataURL();
+
+      document.getElementById('preview-name').innerText = name;
+      document.getElementById('preview-email').innerText = email;
+      document.getElementById('preview-date').innerText = date;
+      document.getElementById('signature-image').src = dataURL;
+
+      document.getElementById('downloadPage').addEventListener('click', function () {
+        const content = document.documentElement.outerHTML;
+        const blob = new Blob([content], { type: 'text/html' });
+        const url = URL.createObjectURL(blob);
+        this.href = url;
+      });
+
+      alert("Form submitted successfully with digital signature!");
+    });
+    
+    
+    <nav aria-label="...">
+    <ul class="pagination pagination-sm">
+      <li class="page-item active" aria-current="page">
+        <span class="page-link">1</span>
+      </li>
+      
+      <li class="page-item"><a class="page-link" href="payment.html">2</a></li>
+      <li class="page-item"><a class="page-link" href="license.html">3</a></li>
+    </ul>
+  </nav>
+  
+  </script>
+
+
+</body></html>

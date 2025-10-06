@@ -1,0 +1,109 @@
+* {
+    padding: 0;   /* Corrected from "pading" */
+    margin: 0;
+}
+.head{
+	 position:static;
+    top:0;
+    
+}
+
+ .nav_bar {
+    margin: 0px;
+    text-align: center; 
+    list-style: none;   
+    display: flex;      
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    background-color:black;  
+   
+   
+         
+}
+#logo {
+    color: white;
+    margin-right: 250px;
+}
+
+
+.nav_bar li a {
+   
+    text-decoration: none; 
+   color: white; 
+     font-size:20px; 
+     text-align-last:left ; 
+}
+.nav_bar li a:hover{
+   cursor:pointer;
+   color:brown;
+    transition: transform 2s ease;
+   
+}
+
+#drop li a{
+	background-color: black;
+}
+
+
+
+/*Contact */
+
+
+#box {
+    max-width: 500px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    padding: 1rem;
+    font-size: 1.1rem;
+    background-color: #4c72af;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+    margin: 0;
+}
+

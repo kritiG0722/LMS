@@ -1,0 +1,137 @@
+* {
+    padding: 0;   /* Corrected from "pading" */
+    margin: 0;
+}
+.head{
+	 position:static;
+    top:0;
+    
+}
+
+ .nav_bar {
+    margin: 0px;
+    text-align: center; 
+    list-style: none;   
+    display: flex;      
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    background-color:black;  
+   
+   
+         
+}
+
+.nav_bar li a {
+   
+    text-decoration: none; 
+   color: white; 
+     font-size:20px; 
+     text-align-last:left ; 
+}
+.nav_bar li a:hover{
+   cursor:pointer;
+   color:brown;
+    transition: transform 2s ease;
+   
+}
+
+#logo{
+	color:white;
+	margin-right:300px;
+}
+
+
+
+
+.image{
+	background-image:url('MEDIA/place.png');
+	background-repeat:no-repete;
+	background-size:cover;
+	
+	height:60vh;
+	width:100%;
+	
+	 opacity: 0.6;
+    animation: fadeIn 2s ease-in-out backwards; 
+}
+
+
+.course{
+	text-align:center;
+	color:black;
+	margin-top:20px;
+	font-size:40px;
+	letter-spacing:2px;
+}
+
+#par2{
+	
+	text-align:center;
+	padding-top:10px;
+	color:white;
+	font-size:30px;
+}
+
+
+#col1,#col2,#col3,#col4{
+	margin-top:100px;
+	border-radius:30px;
+}
+marquee{
+	animation: scroll-left 10s linear infinite;
+	color:red;
+	margin-top:20px;
+	margin-bottom:-20;
+}
+
+
+
+.image1{
+	background-image:url('MEDIA/company.webp');
+	background-repeat:no-repete;
+	background-size:cover;
+	margin-left:200px;
+	margin-top:40px;
+	height:70vh;
+	width:70%;
+	border-radius:10px;
+	
+}
+
+table{
+	
+	width:800px
+}
+
+
+.recrute{
+	
+	margin-top:40px;
+	margin-left:40px;
+	
+}
+
+
+
+#hhh{
+	margin-top:80px;
+	
+}
+
+#ann{
+	margin-top:60px;
+	margin-bottom:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

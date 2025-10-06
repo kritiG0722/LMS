@@ -1,0 +1,147 @@
+* {
+    padding: 0;   /* Corrected from "pading" */
+    margin: 0;
+}
+.head{
+	 position:static;
+    top:0;
+    
+}
+
+ .nav_bar {
+    margin: 0px;
+    text-align: center; 
+    list-style: none;   
+    display: flex;      
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    background-color:black;  
+   
+   
+         
+}
+
+.nav_bar li a {
+   
+    text-decoration: none; 
+   color: white; 
+     font-size:20px; 
+     text-align-last:left ; 
+}
+.nav_bar li a:hover{
+   cursor:pointer;
+   color:brown;
+   transform:ease 2s;
+   
+}
+#logo{
+	color:white;
+	margin-right:600px;
+}
+
+/* addmission form*/
+
+
+#reg {
+    width: 1000px;
+    height: auto;
+    margin: 50px auto;  
+    border-radius: 40px;
+    box-shadow: 2px 4px 4px black;
+   /* padding: 50px; */
+    background-color: white;
+}
+
+
+
+
+
+/* Form fields styling */
+#name, #email, #pass, #add, #number, #cr1, #re12 {
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block;*/
+}
+
+
+#name:hover, #email:hover, #pass:hover, #add:hover, #number:hover, #cr1:hover {
+    box-shadow: 0px 4px 4px black;
+    cursor: pointer;
+}
+
+/*submit button*/
+#re12 {
+    padding: 10px;
+    width: 200px;
+    font-weight: bold;
+    background-color: navy;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    margin-left: 400px;
+    margin-right: auto;
+   display: block; 
+}
+
+
+/* label {
+    font-weight: bold;
+    
+    display: inline;
+    margin-top: 20px;
+    margin-left:70px;
+   
+}
+
+
+
+#radio{
+	margin-right:70px;
+	display: inline;
+	
+	
+}
+
+
+#file1{
+	margin-top:100px;
+	margin-left:50px;
+	width:200px;
+}
+#check{
+	
+	margin-left:50px;
+	
+}
+#r1 , #r2, #r3 {
+    font-weight: bold;
+    
+    display: inline;
+    margin-top: 20px;
+    margin-right:50px;
+   
+}
+*/
+
+  label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+
+
+
+
+

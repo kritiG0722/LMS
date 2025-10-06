@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>admission</title>
+<link href="CSS_PAGE/admission.css" rel="stylesheet">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container-fluid">
+    <header class="head">
+        <nav class="nav_links">
+            <ul class="nav_bar">
+             <img src="CSS_PAGE/MEDIA/tw.jpg" height="50px" width="50px">
+             <h1 id="logo">TechWizard</h1>
+                <li id="home_link">
+                    <a href="index.html" target="_blank" id="home">Home</a>
+                </li>
+                <li id="about_link">
+                    <a href="about.html" target="_blank" id="about">About</a>
+                </li>
+                <li id="contact_link">
+                    <a href="contact.html" target="_blank" id="contact">Contact</a>
+                </li>
+                <li id="register_link">
+                    <a href="registration.html" target="_blank" id="register">Registration</a>
+                </li>
+                <li id="login_link">
+                    <a href="login.html" target="_blank" id="login">Login</a>
+                </li>
+                
+            </ul>
+        </nav> 
+    </header>
+    
+    
+    
+    <blink><p style="color: red">Start Admission Process</p></blink>
+    
+     <div class="reg_form p-4   shadow-lg p-3 mb-5 bg-body rounded" id="reg">
+       <form action="/com.TechWizard/Admission" method="post" id="form1">
+
+
+            <h1 id="r1" align="center">Admission Form</h1><br>
+             <div class="row">
+             <div class="col-md-6">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control mb-2" placeholder="Enter name" name="name" id="name" required>
+            </div>
+            
+            <div class="col-md-6">
+            <label for="email">E-mail:</label>
+            <input type="email" class="form-control mb-2" placeholder="Enter email" name="email" id="email" required>
+            </div>
+            </div>
+            
+            
+            <div class="row">
+             <div class="col-md-6">
+            <label for="pass">Password:</label>
+            <input type="password" class="form-control mb-2" placeholder="Enter password" name="pass" id="pass" required>
+             </div>
+              <div class="col-md-6">
+            <label for="number">Number:</label>
+            <input type="number" class="form-control mb-2" placeholder="Enter number" name="number" id="number" required>
+            </div>
+           </div>
+           
+            
+             <div class="row">
+             <div class="col-md-6">
+            <label for="add">Address:</label>
+            <textarea class="form-control mb-2" placeholder="Enter address" name="address" id="add" required></textarea>
+              </div>
+           
+           <div class="col-md-6">
+            <label for="cr1">Select Course:</label>
+            <select class="form-select mb-3" name="course" id="cr1" required>
+                <option value="">Select Course</option>
+                <option value="Full Stack Developer">Full Stack Developer</option>
+                <option value="Cloud Computing">Cloud Computing</option>
+                <option value="Cyber Security">Cyber Security</option>
+                <option value="DevOps">DevOps</option>
+                <option value="Data Science">Data Science</option>
+            </select>
+             </div></div><br>
+            
+             <div class="form-check">
+             
+          
+             <label>Gender:</label>
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female" required> Female
+        <input type="radio" name="gender" value="Other" required> Other
+             
+  
+</div> 
+            
+             
+             
+             <div class="row">
+             <div class="col-md-4" id="file1">
+            <label for="img">Image:</label>
+            <input type="file" class="form-control mb-2" name="img" id="img" required>
+             </div>
+              <div class="col-md-4" id="file1">
+            <label for="adhar">Adhar Card:</label>
+            <input type="file" class="form-control mb-2"  name="adhar" id="adhar" required>
+            </div>
+             <div class="col-md-4" id="file1">
+            <label for="fee">Fee Receipt:</label>
+            <input type="file" class="form-control mb-2"  name="fee" id="fee" required>
+            </div>
+           </div> <br>
+           
+            
+            
+           
+             
+             
+             
+              <input type="checkbox" class="form-check-input "  name="check" id="check" required >
+            <label for="check"> Confirm Admission:</label>
+
+            <input type="submit" value="Submit" class="btn btn-primary"id="re12">
+              
+              
+                   
+          <nav aria-label="...">
+  <ul class="pagination pagination-sm">
+    <li class="page-item active" aria-current="page">
+      <span class="page-link">1</span>
+    </li>
+    <li class="page-item"><a class="page-link" href="license.html">2</a></li>
+    <li class="page-item"><a class="page-link" href="payment.html">3</a></li>
+  </ul>
+</nav>
+         
+        </form>
+    </div>
+    
+    
+    
+    
+    </div>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+
+</body>
+</html>
